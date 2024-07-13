@@ -1,0 +1,34 @@
+/* .mouse-shadow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease-out;
+  }
+   */
+
+.custom-cursor {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+  /* background: linear-gradient(to bottom right, #00008b, #0000cd); */
+  background: linear-gradient(
+    to bottom right, 
+    #4891ae, 
+    #4682b4, 
+    #1e90ff, 
+    #075670, 
+    #00ced1, 
+    #20b2aa,
+    #068c8e
+  );
+  filter: blur(100px);
+  mix-blend-mode: difference;
+  transition: transform 0.1s ease-out;
+}
