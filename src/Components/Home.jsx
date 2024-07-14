@@ -8,7 +8,7 @@ import x from "../Assets/Icons/twitter.png";
 
 function Home() {
   return (
-    <main className="flex flex-col text-white justify-center text-start px-[20vw] relative top-[0px] h-[100vh]">
+    <main className="flex flex-col text-white justify-center text-start px-[20vw] relative top-[50px] h-[100vh] lg:top-0">
       <h4 className="text-blue-300 font-mono">Hi, my name is</h4>
       <h1 className="text-5xl py-1 z-20 NameH1">Sreejith U.</h1>
       <h1 className="text-5xl text-gray-300 py-1 z-20 NameH1">
@@ -485,11 +485,11 @@ function Home() {
       {/* <button className="bg-transparent border-2 text-blue-300 border-blue-300 w-[15vw] py-2 my-10 hover:bg-blue-300 hover:text-blue-950 rounded transition-colors duration-100">
         Download my resume
       </button> */}
-      <button className="bg-transparent border-2 text-blue-300 border-blue-300 w-[15vw] py-2 my-10 hover:bg-blue-300 hover:text-blue-950 rounded transition-colors duration-100 shadow-lg">
+      <button className="bg-transparent border-2 text-blue-300 border-blue-300 py-2 my-10 hover:bg-blue-300 hover:text-blue-950 rounded transition-colors duration-100 shadow-lg lg:w-[15vw]">
     Download my resume
 </button>
 
-      <div>
+      <div className="flex justify-center lg:justify-start">
         <a href="https://www.instagram.com/sreejithdev2002/" target="_blank">
           <button className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded  min-w-[50px] w-[50px] transition-colors duration-100">
             <img src={instagram} alt="" />
