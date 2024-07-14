@@ -3,7 +3,7 @@ import "../Styles.css";
 
 function Header() {
   return (
-    <header className="flex flex-row items-center justify-between px-4 sm:px-6 md:px-8 lg:px-20 py-5 text-white">
+    <header className=" flex fixed flex-row items-center justify-between px-4 sm:px-6 md:px-8 lg:px-20 pb-10 pt-5 text-white z-30 w-[100%]">
       <h1 className="text-2xl sm:text-3xl text-center headerBrandName">
         SreejithDev2002
       </h1>
