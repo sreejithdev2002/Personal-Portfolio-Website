@@ -8,9 +8,7 @@ function Header() {
         SreejithDev2002
       </h1>
       <nav className="md:flex mt-2 lg:mt-0">
-        <ol className=" text-[10px] flex flex-row font-sans sm:text-lg marker:text-blue-300 headerBrandLinks">
-          <li className=" mx-4 lg:mx-7">Home</li>
-          <li className=" mx-4 lg:mx-7">About</li>
+        <ol className=" text-[13px] flex flex-row font-sans sm:text-lg marker:text-blue-300 headerBrandLinks">
           <li className=" mx-4 lg:mx-7">Skills</li>
           <li className=" mx-4 lg:mx-7">Experience</li>
           <li className=" mx-4 lg:mx-7">Education</li>

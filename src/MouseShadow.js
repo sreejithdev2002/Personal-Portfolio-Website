@@ -20,8 +20,8 @@ const MouseShadow = () => {
     <div
       className="custom-cursor"
       style={{
-        left: `${cursorPosition.x - 100}px`,
-        top: `${cursorPosition.y - 100}px`,
+        left: `${cursorPosition.x - 0}px`,
+        top: `${cursorPosition.y - 10}px`,
       }}
     />
   );

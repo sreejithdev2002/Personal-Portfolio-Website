@@ -21,7 +21,7 @@ function Home() {
         group discussions.
       </p>
       <svg
-        className="hidden lg:block absolute w-[50vw] h-[50vh] right-[5vw] top-[15vh] opacity-90 z-10"
+        className="hidden lg:block absolute w-[50vw] h-[50vh] right-[5vw] top-[15vh] opacity-70 z-10"
         xmlns="http://www.w3.org/2000/svg"
         enable-background="new 0 0 800 600"
         viewBox="0 0 800 600"
@@ -486,34 +486,49 @@ function Home() {
         Download my resume
       </button> */}
       <button className="bg-transparent border-2 text-blue-300 border-blue-300 py-2 my-10 hover:bg-blue-300 hover:text-blue-950 rounded transition-colors duration-100 shadow-lg lg:w-[15vw]">
-    Download my resume
-</button>
+        Download my resume
+      </button>
 
       <div className="flex justify-center lg:justify-start">
-        <a href="https://www.instagram.com/sreejithdev2002/" target="_blank">
-          <button className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded  min-w-[50px] w-[50px] transition-colors duration-100">
-            <img src={instagram} alt="" />
-          </button>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.instagram.com/sreejithdev2002/"
+          className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition-colors duration-100"
+        >
+          <img src={instagram} alt="" />
         </a>
-        <a href="https://www.linkedin.com/in/sreejithdev2002/" target="_blank">
-          <button className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded  min-w-[50px] w-[50px] transition-colors duration-100">
-            <img src={linkedin} alt="" />
-          </button>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/sreejithdev2002/"
+          className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition-colors duration-100"
+        >
+          <img src={linkedin} alt="" />
         </a>
-        <a href="https://github.com/sreejithdev2002" target="_blank">
-          <button className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded  min-w-[50px] w-[50px] transition-colors duration-100">
-            <img src={github} alt="" />
-          </button>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/sreejithdev2002"
+          className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition-colors duration-100"
+        >
+          <img src={github} alt="" />
         </a>
-        <a href="https://x.com/SreejithDev2002" target="_blank">
-          <button className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded  min-w-[50px] w-[50px] transition-colors duration-100">
-            <img src={x} alt="" />
-          </button>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://x.com/SreejithDev2002"
+          className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition-colors duration-100"
+        >
+          <img src={x} alt="" />
         </a>
-        <a href="https://www.facebook.com/profile.php?id=61551495626567" target="_blank">
-          <button className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded  min-w-[50px] w-[50px] transition-colors duration-100">
-            <img src={facebook} alt="" />
-          </button>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.facebook.com/profile.php?id=61551495626567"
+          className="p-2 border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition-colors duration-100"
+        >
+          <img src={facebook} alt="" />
         </a>
       </div>
     </main>
