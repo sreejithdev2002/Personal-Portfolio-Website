@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Styles.css";
 
 function Header() {
+  const [isSolid, setIsSolid] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setIsSolid(scrollPosition > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
-    <header className="pb-10 pt-5 flex fixed flex-col items-center justify-between px-4 sm:px-6 md:px-8 lg:px-20 text-white z-30 w-[100%] lg:flex-row">
+    <header
+      className="pb-5 pt-5 flex fixed flex-col items-center justify-between px-4 sm:px-6 md:px-8 lg:px-20 text-white z-30 w-[100%] lg:flex-row"
+      id={isSolid ? "Header" : "TransHeader" }
+    >
       <h1 className="text-2xl sm:text-3xl text-center headerBrandName">
         SreejithDev2002
       </h1>

@@ -21,7 +21,7 @@ const MouseShadow = () => {
       className="custom-cursor"
       style={{
         left: `${cursorPosition.x - 0}px`,
-        top: `${cursorPosition.y - 10}px`,
+        top: `${cursorPosition.y - 100}px`,
       }}
     />
   );

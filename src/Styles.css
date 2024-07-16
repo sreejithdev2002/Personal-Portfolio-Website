@@ -20,7 +20,11 @@
   font-weight: 900;
 }
 
-.AboutH1{
+.SkillsH1, .ExperienceH1{
   font-family: monospace;
   font-weight: 700;
+}
+
+#Header{
+  background-color: rgba(6, 8, 35, 0.990);
 }
