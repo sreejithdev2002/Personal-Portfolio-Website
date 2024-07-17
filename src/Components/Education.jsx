@@ -3,13 +3,13 @@ import '../Styles.css';
 
 function Education() {
   return (
-    <main className="text-white flex justify-center flex-col text-center px-[20v] py-20">
+    <main className="text-white flex justify-center flex-col text-center px-[20v] py-20" id='Education'>
       <h2 className="text-4xl mb-20 font-mono underline decoration-wavy decoration-blue-300 decoration-auto ExperienceH1">
         Education
       </h2>
       <article>
         <ul>
-          <li className="flex justify-between hover:bg-blue-950 mx-[10vw] lg:mx-[20vw] rounded-xl py-2 px-3 bg-[#0a1331] my-3 transition-colors duration-300">
+          <li className="flex hover:scale-105 justify-between hover:bg-blue-950 mx-[10vw] lg:mx-[20vw] rounded-xl py-2 px-3 bg-[#0a1331] my-3 transition duration-500">
             <div>
               <h3 className="text-base lg:text-2xl text-start my-1 font-medium max-w-[50vw]">
                 Bachelors in Computer Science
@@ -22,7 +22,7 @@ function Education() {
               <p className="text-[10px] lg:text-[12px] my-1 font-mono font-thin">Aug 2020 - Jun 2023</p>
             </div>
           </li>
-          <li className="flex justify-between hover:bg-blue-950 mx-[10vw] lg:mx-[20vw] rounded-xl py-2 px-3 bg-[#0a1331] my-3 transition-colors duration-300">
+          <li className="flex hover:scale-105 justify-between hover:bg-blue-950 mx-[10vw] lg:mx-[20vw] rounded-xl py-2 px-3 bg-[#0a1331] my-3 transition duration-500">
             <div>
               <h3 className="text-base lg:text-2xl text-start my-1 font-medium max-w-[50vw]">
                 Central Board of Secondary Education - 12th Standard
@@ -35,7 +35,7 @@ function Education() {
               <p className="text-[10px] lg:text-[12px] my-1 font-mono font-thin">Aug 2018 - Jun 2020</p>
             </div>
           </li>
-          <li className="flex justify-between hover:bg-blue-950 mx-[10vw] lg:mx-[20vw] rounded-xl py-2 px-3 bg-[#0a1331] my-3 transition-colors duration-300">
+          <li className="flex hover:scale-105 justify-between hover:bg-blue-950 mx-[10vw] lg:mx-[20vw] rounded-xl py-2 px-3 bg-[#0a1331] my-3 transition duration-500">
             <div>
               <h3 className="text-base lg:text-2xl text-start my-1 font-medium max-w-[50vw]">
                 Central Board of Secondary Education - 10th Standard
