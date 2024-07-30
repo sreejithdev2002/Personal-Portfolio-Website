@@ -3,6 +3,8 @@ import html from "../Assets/Icons/html.png";
 import css from "../Assets/Icons/css.png";
 import javascript from "../Assets/Icons/javascript.png";
 import reactjs from "../Assets/Icons/reactjs.png";
+import tailwind from "../Assets/Icons/tailwindcss.png";
+import bootstrap from "../Assets/Icons/bootstrap.png";
 import nodejs from "../Assets/Icons/nodejs.png";
 import express from "../Assets/Icons/expressjs.png";
 import mongodb from "../Assets/Icons/mongodb.png";
@@ -14,65 +16,69 @@ import "../Styles.css";
 
 function Skills() {
   return (
-    <main className="text-white flex justify-center flex-col text-center px-[20v] py-20" id="Skills">
+    <main
+      className="text-white flex justify-center flex-col text-center px-[20vw] py-20"
+      id="Skills"
+    >
       <h2 className="text-4xl mb-20 font-mono underline decoration-wavy decoration-blue-300 decoration-auto SkillsH1">
         Skills
       </h2>
-      <article className="flex flex-col text-start px-[20vw]">
-        <h3 className="text-xl mb-3">Tech Skills</h3>
-        <div className="grid grid-cols-4 lg:grid-cols-10 md:grid-cols-6 sm:grid-cols-4 justify-center lg:pl-[5vw] ">
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={html} alt="" />
+      <h1 className="lg:text-start text-2xl font-semibold mb-2">Tech Skills</h1>
+      <div className="flex flex-col bg-[#0a1331] hover:bg-blue-950 hover:scale-105 transition duration-500 mt-2 rounded-md p-2 w-[100%]">
+        <h1 className="text-lg lg:text-start">Frontend</h1>
+        <div className="flex my-2 justify-center lg:justify-start">
+          <span>
+            <img src={html} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={css} alt="" />
+          <span>
+            <img src={css} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={javascript} alt="" />
+          <span>
+            <img src={javascript} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={reactjs} alt="" />
+          <span>
+            <img src={reactjs} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={nodejs} alt="" />
+          <span>
+            <img src={tailwind} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={express} alt="" />
-          </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={mongodb} alt="" />
-          </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={git} alt="" />
-          </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={github} alt="" />
-          </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={postman} alt="" />
-          </span>
-          <span className="p-2 border-[1px] border-blue-300 text-blue-300 bg-blue-950 hover:bg-blue-900 mx-5 rounded-xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2 my-2">
-            <img src={vscode} alt="" />
+          <span>
+            <img src={bootstrap} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
         </div>
-        <br />
-        <h3 className="text-xl mb-3">Soft Skills</h3>
-        <ul className="flex flex-col text-center justify-center items-center lg:items-start lg:text-start list-none pl-5 text-blue-200 marker:text-blue-300">
-          <li className="border-2 border-opacity-50 border-blue-950 px-3 py-1 bg-[#0a1331] rounded my-1 text-base w-[50vw] lg:text-base lg:w-[15vw] hover:bg-blue-950 hover:translate-x-5 transition duration-500">
-            Problem Solving
-          </li>
-
-          <li className="border-2 border-opacity-50 border-blue-950 px-3 py-1 bg-[#0a1331] rounded my-1 text-base w-[50vw] lg:text-base lg:w-[15vw] hover:bg-blue-950 hover:translate-x-5 transition duration-500">
-            Time Management
-          </li>
-          <li className="border-2 border-opacity-50 border-blue-950 px-3 py-1 bg-[#0a1331] rounded my-1 text-base w-[50vw] lg:text-base lg:w-[15vw] hover:bg-blue-950 hover:translate-x-5 transition duration-500">
-            Communication
-          </li>
-          <li className="border-2 border-opacity-50 border-blue-950 px-3 py-1 bg-[#0a1331] rounded my-1 text-base w-[50vw] lg:text-base lg:w-[15vw] hover:bg-blue-950 hover:translate-x-5 transition duration-500">
-            Leadership
-          </li>
-        </ul>
-      </article>
+      </div>
+      <div className="flex flex-col bg-[#0a1331] hover:bg-blue-950 hover:scale-105 transition duration-500 mt-2 rounded-md p-2 w-[100%]">
+        <h1 className="text-lg lg:text-start">Backend</h1>
+        <div className="flex my-2 justify-center lg:justify-start">
+          <span>
+            <img src={nodejs} alt="" className="lg:h-12 mx-2 h-8" />
+          </span>
+          <span>
+            <img src={express} alt="" className="lg:h-12 mx-2 h-8" />
+          </span>
+          <span>
+            <img src={mongodb} alt="" className="lg:h-12 mx-2 h-8" />
+          </span>
+        </div>
+      </div>
+      <div className="flex flex-col bg-[#0a1331] hover:bg-blue-950 hover:scale-105 transition duration-500 mt-2 rounded-md p-2 w-[100%]">
+        <h1 className="text-lg lg:text-start">Others</h1>
+        <div className="flex my-2 justify-center lg:justify-start">
+          <span>
+            <img src={git} alt="" className="lg:h-12 mx-2 h-8" />
+          </span>
+          <span>
+            <img src={github} alt="" className="lg:h-12 mx-2 h-8" />
+          </span>
+          <span>
+            <img src={postman} alt="" className="lg:h-12 mx-2 h-8" />
+          </span>
+          <span>
+            <img src={vscode} alt="" className="lg:h-12 mx-2 h-8" />
+          </span>
+        </div>
+      </div>
+      <article className="flex flex-col text-start px-[20vw]"></article>
     </main>
   );
 }
