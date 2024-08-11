@@ -19,7 +19,7 @@ function Home() {
 
   return (
     <main
-      className="flex flex-col text-white justify-center text-start px-[20vw] relative top-[50px] h-[100vh] lg:top-0"
+      className="flex flex-col text-white justify-center text-start px-[10vw] lg:px-[20vw] relative top-[50px] h-[100vh] lg:top-0"
       id="Home"
     >
       <img
@@ -50,7 +50,7 @@ function Home() {
           target="_blank"
           rel="noreferrer"
           href="https://www.instagram.com/sreejithdev2002/"
-          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
+          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mx-[10px] lg:mx-[5px] rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
         >
           <img src={instagram} alt="" />
         <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -61,7 +61,7 @@ function Home() {
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/sreejithdev2002/"
-          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
+          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mx-[10px] lg:mx-[5px] rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
         >
           <img src={linkedin} alt="" />
           <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -72,7 +72,7 @@ function Home() {
           target="_blank"
           rel="noreferrer"
           href="https://github.com/sreejithdev2002"
-          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
+          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mx-[10px] lg:mx-[5px] rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
         >
           <img src={github} alt="" />
           <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -83,7 +83,7 @@ function Home() {
           target="_blank"
           rel="noreferrer"
           href="https://x.com/SreejithDev2002"
-          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
+          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mx-[10px] lg:mx-[5px] rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
         >
           <img src={x} alt="" />
           <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -94,7 +94,7 @@ function Home() {
           target="_blank"
           rel="noreferrer"
           href="https://www.facebook.com/profile.php?id=61551495626567"
-          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mr-5 rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
+          className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mx-[10px] lg:mx-[5px] rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
         >
           <img src={facebook} alt="" />
           <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">

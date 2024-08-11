@@ -18,12 +18,12 @@ function Experience() {
                 <h3 className="text-base lg:text-2xl text-start my-1 font-medium max-w-[50vw]">
                   MERN Stack Developer
                 </h3>
-                <p className="text-xs my-2 font-mono">Sept 2023 - Present</p>
+                <p className="text-[10px] lg:text-[12px] my-2 font-mono">Sept 2023 - Present</p>
               </div>
               <h3 className="text-sm lg:text-base text-blue-50 text-start mt-1 mb-3">
                 Softroniics, Perinthalmanna
               </h3>
-              <p className="text-start text-xs text-blue-300">
+              <p className="text-start text-xs text-blue-200">
                 Worked as a MERN Stack Developer Intern at Softroniics, building
                 full-stack web applications using MongoDB, Express.js, React,
                 and Node.js. Collaborated on development, testing, and
