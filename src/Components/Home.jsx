@@ -7,12 +7,12 @@ import github from "../Assets/Icons/github.png";
 import x from "../Assets/Icons/twitter.png";
 import { saveAs } from "file-saver";
 
-import Spline from "@splinetool/react-spline";
+// import Spline from "@splinetool/react-spline";
 import laptopImage from "../Assets/Images/Laptop.png";
 
 function Home() {
   const handleDownload = () => {
-    const fileUrl = `${process.env.PUBLIC_URL}/SreejithU_MERN.pdf`;
+    const fileUrl = `${process.env.PUBLIC_URL}/Sreejith_Resume.pdf`;
     const fileName = "Sreejith_U_Resume.pdf";
     saveAs(fileUrl, fileName);
   };

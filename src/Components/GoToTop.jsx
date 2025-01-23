@@ -34,7 +34,7 @@ function GoToTop() {
             className='rounded-3xl p-2'
             onClick={scrollToTop}
           >
-            <img src={GoToTopBtn} alt="" className='h-16 hover:opacity-70'/>
+            <img src={GoToTopBtn} alt="" className='h-16 hover:opacity-70 transition duration-300'/>
           </button>
         </div>
       )}

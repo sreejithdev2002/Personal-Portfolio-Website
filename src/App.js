@@ -2,7 +2,6 @@ import './App.css';
 import About from './Components/Skills';
 import Header from './Components/Header';
 import Home from './Components/Home';
-// import MouseShadow from './MouseShadow';
 import Experience from './Components/Experience';
 import Education from './Components/Education';
 import Projects from './Components/Projects';
@@ -22,7 +21,6 @@ function App() {
     <Contact/>
     <Footer/>
     <GoToTop/>
-    {/* <MouseShadow/> */}
     </div>
   );
 }

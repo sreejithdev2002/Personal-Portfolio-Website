@@ -4,7 +4,6 @@ import css from "../Assets/Icons/css.png";
 import javascript from "../Assets/Icons/javascript.png";
 import reactjs from "../Assets/Icons/reactjs.png";
 import tailwind from "../Assets/Icons/tailwindcss.png";
-import bootstrap from "../Assets/Icons/bootstrap.png";
 import nodejs from "../Assets/Icons/nodejs.png";
 import express from "../Assets/Icons/expressjs.png";
 import mongodb from "../Assets/Icons/mongodb.png";
@@ -27,36 +26,33 @@ function Skills() {
       <div className="flex flex-col bg-[#0a1331] hover:bg-blue-950 hover:scale-105 transition duration-500 mt-2 rounded-md p-2 w-[100%]">
         <h1 className="text-lg lg:text-start">Frontend</h1>
         <div className="flex my-2 justify-center lg:justify-start">
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={html} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={css} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={javascript} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={reactjs} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={tailwind} alt="" className="lg:h-12 mx-2 h-8" />
-          </span>
-          <span>
-            <img src={bootstrap} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
         </div>
       </div>
       <div className="flex flex-col bg-[#0a1331] hover:bg-blue-950 hover:scale-105 transition duration-500 mt-2 rounded-md p-2 w-[100%]">
         <h1 className="text-lg lg:text-start">Backend</h1>
         <div className="flex my-2 justify-center lg:justify-start">
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={nodejs} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={express} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={mongodb} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
         </div>
@@ -64,16 +60,16 @@ function Skills() {
       <div className="flex flex-col bg-[#0a1331] hover:bg-blue-950 hover:scale-105 transition duration-500 mt-2 rounded-md p-2 w-[100%]">
         <h1 className="text-lg lg:text-start">Others</h1>
         <div className="flex my-2 justify-center lg:justify-start">
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={git} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={github} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={postman} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
-          <span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={vscode} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
         </div>
