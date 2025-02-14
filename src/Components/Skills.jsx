@@ -7,6 +7,7 @@ import tailwind from "../Assets/Icons/tailwindcss.png";
 import nodejs from "../Assets/Icons/nodejs.png";
 import express from "../Assets/Icons/expressjs.png";
 import mongodb from "../Assets/Icons/mongodb.png";
+import mysql from "../Assets/Icons/mysql.png";
 import git from "../Assets/Icons/git.png";
 import github from "../Assets/Icons/github.png";
 import postman from "../Assets/Icons/postman.png";
@@ -54,6 +55,9 @@ function Skills() {
           </span>
           <span className="bg-white p-2 rounded mx-1 flex justify-center">
             <img src={mongodb} alt="" className="lg:h-12 mx-2 h-8" />
+          </span>
+          <span className="bg-white p-2 rounded mx-1 flex justify-center">
+            <img src={mysql} alt="" className="lg:h-12 mx-2 h-8" />
           </span>
         </div>
       </div>
