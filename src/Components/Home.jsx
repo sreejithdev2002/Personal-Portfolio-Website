@@ -12,7 +12,7 @@ import laptopImage from "../Assets/Images/Laptop.png";
 
 function Home() {
   const handleDownload = () => {
-    const fileUrl = `${process.env.PUBLIC_URL}/Sreejith_Resume.pdf`;
+    const fileUrl = `${process.env.PUBLIC_URL}/Sreejith_Full_Stack_Resume.pdf`;
     const fileName = "Sreejith_U_Resume.pdf";
     saveAs(fileUrl, fileName);
   };
@@ -53,9 +53,9 @@ function Home() {
           className="p-2 group border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-blue-950 mx-[10px] lg:mx-[5px] rounded-3xl  min-w-[50px] w-[50px] transition duration-500 hover:-translate-y-2"
         >
           <img src={instagram} alt="" />
-        <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Instagram
-        </span>
+          <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            Instagram
+          </span>
         </a>
         <a
           target="_blank"
@@ -65,8 +65,8 @@ function Home() {
         >
           <img src={linkedin} alt="" />
           <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Linkedin
-        </span>
+            Linkedin
+          </span>
         </a>
         <a
           target="_blank"
@@ -76,8 +76,8 @@ function Home() {
         >
           <img src={github} alt="" />
           <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Github
-        </span>
+            Github
+          </span>
         </a>
         <a
           target="_blank"
@@ -87,8 +87,8 @@ function Home() {
         >
           <img src={x} alt="" />
           <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          X
-        </span>
+            X
+          </span>
         </a>
         <a
           target="_blank"
@@ -98,8 +98,8 @@ function Home() {
         >
           <img src={facebook} alt="" />
           <span class="absolute left-1/2 top-20 transform -translate-x-1/2 -translate-y-full mt-2 px-2 py-1 bg-blue-950 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Facebook
-        </span>
+            Facebook
+          </span>
         </a>
       </div>
     </main>
