@@ -7,15 +7,15 @@ function Experience() {
       id: 1,
       title: "ReactJS Developer",
       timeline: "Nov 2024 - Present",
-      company: "QK Wash, North Paravur",
+      company: "Daxoff Hub Pvt Ltd, North Paravur",
       description:
-        "As a Frontend Developer at QK Wash, designed and implemented the frontend of the admin dashboard using React.js and Tailwind CSS. Collaborated with the backend team to integrate APIs, ensuring smooth data communication and seamless functionality. Focused on optimizing the user interface to deliver a responsive and intuitive experience across various devices.",
+        "I am a Web Developer at Daxoff Hub Pvt Ltd, North Paravur, where I developed the frontend of the QK Wash Admin Website and contributed to backend integration for the QK Wash User Website.",
     },
     {
       id: 2,
       title: "MERN Stack Developer",
       timeline: "Oct 2023 - Oct 2024",
-      company: "Spftroniics, Perinthalmanna",
+      company: "Softroniics, Perinthalmanna",
       description:
         "Worked as a MERN Stack Developer Intern at Softroniics, building full-stack web applications using MongoDB, Express.js, React, and Node.js. Collaborated on development, testing, and deployment, enhancing skills in problem-solving and code optimization.",
     },
