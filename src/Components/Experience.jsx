@@ -5,7 +5,7 @@ function Experience() {
   const experienceData = [
     {
       id: 1,
-      title: "ReactJS Developer",
+      title: "Web Developer",
       timeline: "Nov 2024 - Present",
       company: "Daxoff Hub Pvt Ltd, North Paravur",
       description:
