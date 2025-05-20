@@ -110,6 +110,7 @@ import React from "react";
 import Shoooz from "../Assets/Images/Shoooz.png";
 import DentalClinic from "../Assets/Images/DentalClinic.png";
 import ExpenseTracker from "../Assets/Images/ExpenseTracker.png";
+import TaskZen from "../Assets/Images/TaskZen.png";
 
 function Projects() {
   const ProjectsData = [
@@ -148,6 +149,15 @@ function Projects() {
       tech: ["HTML5", "CSS3", "Tailwind CSS", "JavaScript", "React.js"],
       img: ExpenseTracker,
       link: "https://expense-pdf-maker.vercel.app", // Replace with the actual deployment link if available
+    },
+    {
+      id: 3,
+      name: "TaskZen",
+      type: "Task Management Website",
+      desc: "A minimalist task manager built with React, Redux Toolkit, and Tailwind CSS. TaskZen lets users add, complete, and delete tasks with a clean UI and persistent state using localStorage. Designed for clarity, speed, and modern UX.",
+      tech: ["HTML5", "CSS3", "Tailwind CSS", "JavaScript", "React.js", "Redux"],
+      img: TaskZen,
+      link: "https://task-zen-kappa.vercel.app/", // Replace with the actual deployment link if available
     },
   ];
 
